@@ -67,7 +67,7 @@ int generalFees[9][9] = { //일반실 성인 요금
 };
 
 int main() {
-	printf("<??μ? KTX ???? ??? ??? ???α??>\n\n");
+	printf("<경부선 KTX 여객 요금 계산 프로그램>\n\n");
 	cost(); //cost 함수 호출
 	return 0;
 }
@@ -159,7 +159,7 @@ int route() { //경로 받는 함수
 }
 
 int startStation() { //출발역 받는 함수
-	char start[100]; //???? ??? ?迭
+	char start[100]; //출발역 받는 배열
 
 	printf("출발역을 입력하세요.: ");
 	scanf("%s", start); //출발역 받는 배열
